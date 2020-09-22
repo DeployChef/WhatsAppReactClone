@@ -40,9 +40,6 @@ function Sidebar() {
                 <SidebarChat/>
                 <SidebarChat/>
                 <SidebarChat/>
-                <SidebarChat/>
-                <SidebarChat/>
-                <SidebarChat/>
             </dev>
         </div >
     )
