@@ -19,6 +19,10 @@
 .chat__headerInfo > h3{
     margin-bottom: 3px;
     font-weight: 500;
+    max-width: 400px;
+    text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
 }
 
 .chat__headerRight{
@@ -44,6 +48,8 @@
     border-radius: 10px;
     width: fit-content;
     margin-bottom: 20px;
+    overflow-wrap: anywhere;
+    max-width: 100%;
 }
 
 .chat__message__name{
